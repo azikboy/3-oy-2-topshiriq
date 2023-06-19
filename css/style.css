@@ -1,0 +1,466 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0rem;
+  padding: 0rem;
+}
+html {
+  /* margin: 0; */
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  /* padding: 0; */
+}
+
+img {
+  object-fit: cover;
+  display: flex;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-weight: 600;
+
+  padding: 0rem;
+  margin: 0rem;
+  height: 100vh;
+}
+.container {
+  width: 100%;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.header {
+  position: fixed;
+  width: 100%;
+
+  
+  background: linear-gradient(155.28deg, #383638 2.06%, #0b0b0b 33.08%);
+}
+
+.header_content {
+  background: linear-gradient(155.28deg, #383638 2.06%, #0b0b0b 33.08%);
+  /* position: relative; */
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+/* .header-logo_link {
+  
+
+}
+.header-logo_img {
+} */
+.header_list {
+  display: flex;
+  gap: 2.7rem;
+  padding-top: 2.2rem;
+  padding-left: 20rem;
+}
+/* .header_item {
+} */
+.header_st {
+  display: flex;
+  align-items: center;
+}
+.header_link {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  color: #8B8E99;
+}
+
+.header_icon {
+  padding-left: 20rem;
+}
+/* .header-icon_item {
+}
+.header-icon_link {
+}
+.header-icon_img {
+} */
+.main {
+  padding-top: 4.8rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+/* .hero {
+} */
+.hero_content {
+  background: linear-gradient(155.28deg, #383638 2.06%, #0B0B0B 33.08%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 18.4rem; */
+  padding-top: 17.2rem;
+  padding-bottom: 14.2rem;
+  
+
+  
+}
+.hero-about_products {
+ /* padding-top: 17.2rem;
+ padding-right: 19.8em;
+ padding-bottom: 14.2rem;
+ padding-left: 20rem; */
+
+  width: 45.7rem;
+}
+.hero_title {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 6.4rem;
+  line-height: 8.03rem;
+
+}
+.hero_description {
+  font-family: "Poppins" sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.08rem;
+  color: #8B8E99;
+}
+.hero-search_list {
+  margin-top: 4.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 1.5rem;
+  background-color: #FFFFFF;
+}
+/* .hero-search_item {
+}
+.hero-search_img {
+ /* padding-left: 2.16em;  */
+/* } */ */
+.hero-serch_link {
+  color: #8B8E99B2;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  /* margin-left: 2.6rem; */
+}
+.hero-search_btn {
+  padding: 0.5rem 1rem;
+  margin-top: 0.7rem;
+  margin-bottom: 0.8rem;
+  border-radius: 0.9rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.23rem;
+  background-color: #3858D6;
+  color: #FFFFFF;
+}
+/* .hero_search {} */
+
+.hero_img{
+  /* margin-right: 19.8rem; */
+  margin-left: 18.4rem;
+
+}
+/* .cards {} */
+.card_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20rem;
+  padding-right: 19.8rem;
+  gap: 2rem;
+  
+  
+}
+.card_resume {
+  background-color: #F6F6F6;
+  margin-top: 7.3rem;
+  padding: 4.6rem 2.9rem 4.3rem 4rem;
+  gap: 2.6rem;
+  border-radius: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .card-resume {
+}
+.card-resume_about {
+} */
+.card-resume-about_title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 4.35rem;
+  color: #1E1D1D;
+  
+}
+.card-resume-about-text {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.94rem;
+  color: #8B8E99;
+  padding-top: 0.5rem;
+}
+
+.products_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 13.5rem;
+}
+.products-content_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.products-content-text_link {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.94rem;
+  color: #3858D6;
+
+}
+.products-content-text_title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 4.35rem;
+  color: #1E1D1D;
+}
+.product {
+  padding-top: 6.5rem;
+  gap: 5rem;
+  display: flex;
+  
+}
+.products_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* .products_item {
+} */
+.products_img {
+  padding: 2.9rem 4.3rem 2.8rem 4.1rem;
+  background-color: #F6F6F6;
+  width: 33.4rem;
+  height: 33.7rem;
+}
+.products_title {
+font-weight: 600;
+font-size: 2.4rem;
+line-height: 3.6rem;
+padding-top: 1.1rem;
+color: #1E1D1D;
+}
+.productsimg_stars {
+  /* padding-top: 1.1rem; */
+  margin-top: 1.1rem;
+}
+.products_text {
+  padding-top: 1.15rem;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: #000000;
+
+}
+.products_span {
+  text-decoration: line-through;
+  color: #8B8E99;
+  /* font-weight: 500;
+  font-size: 1.6rem; */
+}
+.products_btn {
+  background-color: #3858D6;
+  color: #FFFFFF;
+  padding: 0.9rem 0.7rem 1rem 0.5rem;
+  width: 19.6rem;
+  border-radius: 1.5rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  margin-top: 6.9rem;
+}
+/* .products_link{
+ 
+  
+}
+.clients {
+} */
+.clients_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 13.5rem; */
+}
+.aboutus {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.aboutus_link {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 19.4rem;
+  color: #3858D6;
+}
+.aboutus_title {
+  /* padding-top: 0.5rem; */
+  /* margin-top: 0.5rem; */
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 4.35rem;
+  color: #1E1D1D;
+}
+.ourclients {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4.7rem;
+  
+}
+.ourclients_says {
+  padding-top: 5.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.7rem;
+  padding: 3rem 3.85rem 3rem 3.4rem;
+  background-color: #F6F6F6;
+}
+/* .ourclients_img {
+  
+}
+.ourclients_purchase {
+}
+.ourclient-purchase_list {
+}
+.ourclient-purchase_item {
+} */
+.ourclient-purchase_title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: #1E1D1D;
+}
+.ourclient-purchase_text {
+  font-family: "Inter";
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #8B8E99;
+  padding-top: 1rem;
+  padding-bottom: 1.3rem;
+  width: 25.6rem;
+}
+/* .ourclient-purchase_img {
+  
+} */
+.page {
+  padding-top: 4.2rem;
+}
+/* .page_img {
+} */
+.subscribe {
+  padding-top: 13.5rem;
+}
+.subscribe_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.7rem;
+  background-color: #F6F6F6;
+  padding-top: 3.3rem;
+  padding-bottom: 4.3rem;
+  gap: 18.7rem;
+}
+/* .subscribe_description {
+} */
+.subscribe_title {
+  font-family: "inter";
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 4.35rem;
+  color: #1E1D1D;
+}
+.subscribe_text {
+  padding-top: 1.2rem;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.93rem;
+  color: #8B8E99;
+}
+.subscribe_enter{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.2rem;
+  padding: 0.7rem 0.9rem 0.8rem 3rem;
+  background-color: #FFFFFF;
+}
+.subscribe_button {
+  background-color: #3858D6;
+  color: #FFFFFF;
+  font-family: "Poppins";
+  font-size: 1.6rem;
+  line-height: 2.08rem;
+  border-radius: 0.9rem;
+  padding: 1rem 2rem;
+}
+.subscribe_btn {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.08rem;
+  color: #8B8E99;
+}
+/* .subscribe_as {
+}
+.subscribe-as_img {
+} */
+.footer {
+  
+  background-color: #0B0B0B;
+  margin-top: 9.1rem;
+}
+.footer_content {
+  text-align: center;
+  
+  
+}
+.footer_text {
+  margin: 2.3rem auto;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.08rem;
+}
